@@ -1,10 +1,10 @@
 import { useEffect } from 'react';
 import './App.scss';
-import ControlPanel from './components/ControlPanel/ControlPanel';
-import NavBar from './components/NavBar/NavBar';
-import TimeDetails from './components/TimeDetails/TimeDetails';
-import { useAppSelector } from './redux/hooks';
-import { RootState } from './redux/store';
+import ControlPanel from '../../../working_background-app-main/src/components/ControlPanel/ControlPanel';
+import NavBar from '../../../working_background-app-main/src/components/NavBar/NavBar';
+import TimeDetails from '../../../working_background-app-main/src/components/TimeDetails/TimeDetails';
+import { useAppSelector } from '../../../working_background-app-main/src/redux/hooks';
+import { RootState } from '../../../working_background-app-main/src/redux/store';
 
 function App() {
 
