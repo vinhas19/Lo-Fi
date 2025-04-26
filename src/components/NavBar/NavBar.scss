@@ -1,0 +1,106 @@
+@import '../../assets/styles/global.scss';
+
+.navbar__wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    margin: 20px;
+   
+        .navitem {
+            color: $text-color;
+            font-size: 18px;
+            padding: 10px 15px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            transition: all 0.15s ease-in;
+            margin-right: 20px;
+        }
+
+        #btn__clock, #btn__song--control, #btn__screensize--control,  #btn__control-panel {
+            background-color: $bg-shadow-color;
+            border-radius: 5px;
+            outline: none;
+            
+            &:hover {
+                background: $bg-color;
+            }
+
+            &:active {
+                background: $bg-color;
+                transform: translateY(4px);
+            }
+        }
+
+        #btn__time-mode, #btn__weather-mode {
+            display: flex;
+            background-color: $primary-color;
+            width: 75px;
+            height: 40px;
+            border-radius: 30px;
+            align-items: center;
+            justify-content: space-around;
+            padding: 0;
+
+            #icon--control, #icon--night  {
+               font-size: 30px;
+            }
+
+            #icon--day {
+                font-size: 28px;
+            }
+
+            #icon--night {
+                display: none;
+            }
+        }
+
+        .night-mode {
+            background-color: $secondary-color !important;
+            flex-direction: row-reverse;
+
+            #icon--day {
+                display: none;
+            }
+
+            #icon--night {
+                display: block !important;
+            }
+        }
+        
+        #btn__weather-mode {
+            background-color: $secondary-color;
+            opacity: 0.5;
+
+            #icon--rain {
+                font-size: 25px;
+            }
+        }
+        .rain-mode {
+            opacity: 1 !important;
+        }
+
+        #btn__song--control {
+
+            #state--pause {
+                display: none;
+            }
+        }
+
+        .pause-mode {
+            #state--pause {
+                display: block !important;
+            }
+
+            #state--play {
+                display: none;
+            }
+        }
+
+        #btn__control-panel {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+        }
+}
