@@ -21,13 +21,13 @@ const data:DataType = {
     mood: [
         {
             id: 'sleepy',
-            name: 'Sleepy',
+            name: 'Dorminhoco',
             isPlayed: false,
             icon: 'moon'
         },
         {
             id: 'jazzy',
-            name: 'Jazzy',
+            name: 'Jaz',
             isPlayed: false,
             icon: 'guitar'
         },
@@ -41,52 +41,52 @@ const data:DataType = {
     effects: [
         {
             id: 'rain',
-            name: 'Rain',
+            name: 'Chuva',
             volume: 0,
          },
          {
             id: 'keyboard',
-            name: 'Keyboard',
+            name: 'Teclado',
             volume: 0,
          },
          {
             id: 'city',
-            name: 'City Traffic',
+            name: 'Cidade',
             volume: 0,
          },
          {
             id: 'campfire', 
-            name: 'Campfire',
+            name: 'Lareira',
             volume: 0
          },
          {
             id: 'fan', 
-            name: 'Fan',
+            name: 'Ventoinha',
             volume: 0
          },
          {
             id: 'river', 
-            name: 'River',
+            name: 'Rio',
             volume: 0
          },
          {
             id: 'storm', 
-            name: 'Storm',
+            name: 'Tempestade',
             volume: 0
          },
          {
             id: 'waves', 
-            name: 'Waves',
+            name: 'Ondas',
             volume: 0
          },
          {
             id: 'wind', 
-            name: 'Wind',
+            name: 'Vento',
             volume: 0
          },
          {
             id: 'people', 
-            name: 'People',
+            name: 'População',
             volume: 0
          }     
     ],

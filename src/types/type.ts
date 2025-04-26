@@ -23,11 +23,11 @@ export interface DataType {
 }
 
 export enum DayOfWeek {
-    MONDAY = 'Monday',
-    TUESDAY = 'Tuesday',
-    WEDNESDAY = 'Wednesday',
-    THURSDAY = 'Thursday',
-    FRIDAY = 'Friday',
-    SATURDAY = 'Saturday',
-    SUNDAY = 'Sunday',
+    MONDAY = 'Segunda-Feira',
+    TUESDAY = 'Terça-Feira',
+    WEDNESDAY = 'Quarta-Feira',
+    THURSDAY = 'Quinta-Feira',
+    FRIDAY = 'Sexta-Feira',
+    SATURDAY = 'Sábado',
+    SUNDAY = 'Domingo',
 }
