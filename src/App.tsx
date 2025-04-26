@@ -1,5 +1,10 @@
 import { useEffect } from 'react';
 import './App.scss';
+import ControlPanel from './components/ControlPanel/ControlPanel';
+import NavBar from './components/NavBar/NavBar';
+import TimeDetails from './components/TimeDetails/TimeDetails';
+import { useAppSelector } from './redux/hooks';
+import { RootState } from './redux/store';
 
 
 function App() {
