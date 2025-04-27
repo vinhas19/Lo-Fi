@@ -27,7 +27,7 @@ const TimeDetails = () => {
         {greeting()}
       </span>
       <span className='time-details' id='time-details__date'>
-        It's {dayOfWeek()} {shortDate}
+         {dayOfWeek()} {shortDate}
       </span>
       <span className='time-details' id='time-details__anecdote'>
         "{quote}"

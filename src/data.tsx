@@ -21,7 +21,7 @@ const data:DataType = {
     mood: [
         {
             id: 'sleepy',
-            name: 'Dorminhoco',
+            name: 'Sono',
             isPlayed: false,
             icon: 'moon'
         },
