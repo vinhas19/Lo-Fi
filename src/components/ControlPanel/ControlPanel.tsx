@@ -140,7 +140,7 @@ const ControlPanel = () => {
           </div>
         </div>
         <div id='control_panel__effect-section'>
-          <h4>Sound</h4>
+          <h4>Som</h4>
           <div id='control_panel__effect-list'>
             {soundEffects.map(effect => (
               <div className='control_panel__effect-item' id={`effect-item--${effect.id}`} key={effect.id}>
