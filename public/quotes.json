@@ -2,16 +2,8 @@
     "quotes": [
       
       {
-        "name": "Rui Moura",
-        "text": "Águas passadas não movem moinho"
-      },
-      {
         "name": "Tiago Grila",
         "text": "Por cima dos que andam há os que voam"
-      },
-      {
-        "name": "Rui Moura",
-        "text": "Um dia é da caça , outro do caçador"
       },
       {
         "name":"Chatgpt",
@@ -24,6 +16,14 @@
       {
         "name":"Rui Moura",
         "text": "Desiste já ! É tarde demais"
+      },
+      {
+        "name":"Freitas",
+        "text": "Ano novo, vida nova e mais 365 oportunidades de fazeres asneira"
+      },
+      {
+        "name":"Rodz",
+        "text": "Sorria! O pior ainda está por vir."
       }
 
     ]
