@@ -6,7 +6,6 @@ import TimeDetails from './components/TimeDetails/TimeDetails';
 import { useAppSelector } from './redux/hooks';
 import { RootState } from './redux/store';
 
-
 function App() {
 
   // Data extracted from redux store
